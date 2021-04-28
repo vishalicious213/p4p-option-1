@@ -1,3 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root {
+  --main: #ffcc33;
+  --light: #ffedb5;
+  --extraLight: #fff8e2;
+  --darkerYellow: #f5b800;
+  --darkGray: #3d3d3d;
+  --midGray: #5e5e5e;
+  --offWhite: #fafafa;
+  --redDot: #ff1717;
+  --almostBlack: rgba(0, 0, 0, 0.87);
+  --link: #295bff;
+
+  --secondary: hsl(232, 57%, 26%);
+
+  --error-main: #eb0000;
+  --error-dark: hsl(0, 89%, 40%);
+
+  --resume-yellow: #f3ba4d;
+  --resume-blue: #1c4587;
+  --resume-gray: #e7e6e6;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
 .App {
   text-align: center;
 }
