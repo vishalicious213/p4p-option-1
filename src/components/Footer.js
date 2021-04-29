@@ -5,6 +5,14 @@ function Footer() {
     return (
         <footer>
             <div id='footer-container'>
+                <div>
+                    <i className="fab fa-facebook"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-medium"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
                 <div id='links'>
                     <div><a href='https://www.baltimorecorps.org/contact'>CONTACT US</a></div>
                     <div><a href='https://www.baltimorecorps.org/donate-1'>DONATE</a></div>

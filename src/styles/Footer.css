@@ -18,6 +18,11 @@ footer {
     text-align: center;
 }
 
+.fab {
+    width: 1.5rem;
+    color: white;
+}
+
 #links {
     display: flex;
     justify-content: space-around;
@@ -30,4 +35,8 @@ footer {
     color: var(--offWhite);
     text-decoration: none;
     margin: 0 .5rem;
+}
+
+#links a:hover {
+    text-decoration: underline;
 }
