@@ -1,0 +1,23 @@
+#process-h3 {
+    font-size: 2rem;
+    margin-left: 4rem;
+}
+
+details {
+    margin-left: 4rem;
+    width: 90%;
+}
+
+summary {
+    margin-bottom: .5rem;
+    font-weight: 600;
+}
+
+summary:hover {
+    cursor: pointer;
+    background: whitesmoke;
+}
+
+summary:focus {
+    outline: none;
+}
