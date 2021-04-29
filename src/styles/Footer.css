@@ -2,7 +2,8 @@ footer {
     margin: 2rem 0 0 0;
     padding: 3rem;
     color: var(--offWhite);
-    background: var(--secondary);
+    /* background: var(--secondary); */
+    background: rgb(21,19,73);
 }
 
 #footer-container {
@@ -36,7 +37,9 @@ footer {
 }
 
 .fab:hover {
+    transition: .5s;
     border: 1px solid var(--offWhite);
+    background: rgb(44, 43, 91);
 }
 
 #address {
@@ -73,5 +76,7 @@ footer {
 }
 
 #links div:hover {
+    transition: .5s;
     border: 1px solid var(--offWhite);
+    background: rgb(44, 43, 91);
 }
