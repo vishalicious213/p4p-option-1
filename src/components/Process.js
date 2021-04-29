@@ -22,8 +22,8 @@ function Process() {
             </details>
 
             <details>
-                <summary>3. Schedule a Consultation</summary>
-                <p></p>
+                <summary>5. Internal Review and Recommendation</summary>
+                <p>Baltimore Corps staff will review all submitted applications to roles (Profiles/Interest Statements) to recommend candidates for the position. Recommended candidates will be sent to the organization’s hiring manager to review. The hiring managers will reach out directly to schedule interviews with their top candidates.</p>
             </details>
 
             <details>
