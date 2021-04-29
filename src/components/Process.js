@@ -27,8 +27,9 @@ function Process() {
             </details>
 
             <details>
-                <summary>3. Schedule a Consultation</summary>
-                <p></p>
+                <summary>6. Interview and Selection</summary>
+                <p>There may be multiple interviews depending on the organization’s hiring practices. Once interviews are complete, Baltimore Corps will notify you of the status of your application. If you are selected as the top candidate, an offer will be made by the organization.</p>
+                <p>Throughout the process, the Baltimore Corps team is available to help answer questions, support with developing your Profile, and assist with interviewing. We know applying for jobs is complicated and stressful so let us know how we can be here for you.</p>
             </details>
         </section>
     )
