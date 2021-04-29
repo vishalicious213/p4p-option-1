@@ -38,8 +38,8 @@ footer {
 
 .fab:hover {
     transition: .5s;
-    border: 1px solid var(--offWhite);
-    background: rgb(44, 43, 91);
+    border: 1px solid var(--main);
+    color: var(--main);
 }
 
 #switch {
@@ -57,6 +57,7 @@ footer {
 
 .name {
     font-size: 1.45rem;
+    color: var(--main);
 }
 
 .no-low {
@@ -88,8 +89,12 @@ footer {
 
 #links div:hover {
     transition: .5s;
-    border: 1px solid var(--offWhite);
-    background: rgb(44, 43, 91);
+    color: var(--main);
+    border: 1px solid var(--main);
+}
+
+#links a:hover {
+    color: var(--main);
 }
 
 /* 768px */
