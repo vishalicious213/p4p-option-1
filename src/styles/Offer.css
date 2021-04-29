@@ -1,13 +1,15 @@
 #offer {
-    margin: 0 4rem;
+    width: 100%;
 }
 
 #offer h3 {
-    /* margin-left: 1rem; */
+    margin-left: 1rem;
     font-size: 2rem;
 }
 
 #offerings {
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,7 +18,6 @@
 .offering {
     width: 90%;
     flex-wrap: wrap;
-    /* outline: 1px solid black; */
 }
 
 .offering img {
@@ -35,8 +36,15 @@
 /* 768px */
 
 @media only screen and (min-width: 768px) {
+    #offer {
+        width: 100%;
+    }
+
+    #offer h3 {
+        margin-left: 4rem;
+    }
+
     #offerings {
-        /* outline: 1px solid red; */
         display: flex;
         flex-direction: row;
         justify-content: space-between;
