@@ -15,7 +15,7 @@ summary {
 
 summary:hover {
     cursor: pointer;
-    background: whitesmoke;
+    background: var(--light);
 }
 
 summary:focus {
