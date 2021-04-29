@@ -10,7 +10,6 @@ footer {
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
-    /* flex-direction: column; */
     align-items: center;
 }
 
@@ -20,8 +19,6 @@ footer {
 }
 
 #social {
-    outline: 1px solid white;
-    /* margin-bottom: 1.5rem; */
     width: 7rem;
 }
 
@@ -43,7 +40,6 @@ footer {
 }
 
 #address {
-    outline: 1px solid white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,13 +54,8 @@ footer {
 }
 
 #links {
-    outline: 1px solid white;
     display: flex;
     flex-direction: column;
-    /* justify-content: space-around; */
-    /* flex-wrap: wrap; */
-    /* width: 55%; */
-    /* margin-bottom: 1rem; */
 }
 
 #links a {
