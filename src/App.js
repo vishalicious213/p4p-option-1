@@ -1,4 +1,5 @@
 import './App.css'
+import Offer from './components/Offer'
 import signInImg from './img/logo.png'
 
 function App() {
@@ -12,10 +13,12 @@ function App() {
 
         <div id='sign-in'>
           <img id='sign-in-img' src={signInImg} alt='logo' />
-          <p>Create an account or log in to create a Baltimore Corps community profile. Get access to job opportunities and development opportunities in the Baltimore Corps network</p>
+          <p>Create an account or log in to create a Baltimore Corps community profile. Get access to job opportunities and development opportunities in the Baltimore Corps network.</p>
           <button>LOG IN / SIGN UP</button>
         </div>
       </main>
+
+      <Offer />
     </div>
   );
 }

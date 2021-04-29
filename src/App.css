@@ -81,6 +81,7 @@ main {
   margin-top: 40vh;
   margin-right: 5%;
   padding: 1rem;
+  border-radius: .25rem;
   background: var(--offWhite);
   opacity: .8;
 }
