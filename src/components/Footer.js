@@ -14,20 +14,22 @@ function Footer() {
                     <a href='http://youtube.com/channel/UC2zwpPPmuJQEpmvXbh7YsJA'><i className="fab fa-youtube"></i></a>
                 </div>
 
-                <div id='address'>
-                    <p className='no-low'><b>BALTIMORE CORPS</b></p>
-                    <p className='no-low no-top'>2401 Liberty Heights Ave #2730</p>
-                    <p className='no-top'>Baltimore, MD 21215</p>
-                    <p className='no-low no-top'>(443) 640-8904</p>
-                    <p className='no-top'>hello@baltimorecorps.org</p>
-                </div>
-
-                <div id='links'>
-                    <div><a href='https://www.baltimorecorps.org/contact'>CONTACT US</a></div>
-                    <div><a href='https://www.baltimorecorps.org/donate-1'>DONATE</a></div>
-                    <div><a href='https://www.baltimorecorps.org/internal'>INTERNAL</a></div>
-                    <div><a href='https://app.baltimorecorps.org/static/media/services-terms.7ef9c69b.pdf'>TERMS</a></div>
-                    <div><a href='https://www.baltimorecorps.org/privacy-policy'>PRIVACY</a></div>
+                <div id='switch'>
+                    <div id='links'>
+                        <div><a href='https://www.baltimorecorps.org/contact'>CONTACT US</a></div>
+                        <div><a href='https://www.baltimorecorps.org/donate-1'>DONATE</a></div>
+                        <div><a href='https://www.baltimorecorps.org/internal'>INTERNAL</a></div>
+                        <div><a href='https://app.baltimorecorps.org/static/media/services-terms.7ef9c69b.pdf'>TERMS</a></div>
+                        <div><a href='https://www.baltimorecorps.org/privacy-policy'>PRIVACY</a></div>
+                    </div>
+                    
+                    <div id='address'>
+                        <p className='no-low'><b>BALTIMORE CORPS</b></p>
+                        <p className='no-low no-top'>2401 Liberty Heights Ave #2730</p>
+                        <p className='no-top'>Baltimore, MD 21215</p>
+                        <p className='no-low no-top'>(443) 640-8904</p>
+                        <p className='no-top'>hello@baltimorecorps.org</p>
+                    </div>
                 </div>
             </div>
         </footer>
