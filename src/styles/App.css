@@ -28,11 +28,11 @@ html {
 }
 
 .App {
-  /* text-align: center; */
+  margin: 0;
 }
 
 main {
-  background-image: url('./img/unity.jpg');
+  background-image: url('../img/unity.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
