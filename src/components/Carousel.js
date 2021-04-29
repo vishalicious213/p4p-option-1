@@ -51,6 +51,7 @@ export default function Carousel() {
 
     return (
         <div className='body'>
+            <h3 id='carousel-h3'>OUR PROGRAMS</h3>
             <Slider {...settings}>
                 {/* <div>
                     <img src={offering1} alt='BCC event' />

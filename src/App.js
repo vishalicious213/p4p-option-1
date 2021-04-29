@@ -3,6 +3,7 @@ import Offer from './components/Offer'
 import Carousel from './components/Carousel'
 import Footer from './components/Footer'
 import signInImg from './img/logo.png'
+import p4p from './img/P4P-animated.gif'
 
 function App() {
   return (
@@ -20,8 +21,11 @@ function App() {
         </div>
       </main>
 
-      <Offer />
       <Carousel />
+      <Offer />
+      <div id='p4p-container'>
+        <img id='p4p-animated' src={p4p} alt='' />
+      </div>
       <Footer />
     </div>
   );
