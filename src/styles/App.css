@@ -58,7 +58,7 @@ main {
 }
 
 #hero-h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   margin-bottom: 0;
   color: var(--extraLight);
   text-shadow:
@@ -88,7 +88,6 @@ main {
   top: 50%;
   left: 50%;
   transform: translateX(-50%);
-  /* margin: 5rem auto 0 auto; */
   padding: 1rem 1rem 2.5rem 1rem;
   border-radius: .25rem;
   background: var(--offWhite);
@@ -113,6 +112,16 @@ main {
   transition: .5s;
 }
 
+
+/* 414px */
+
+@media only screen and (min-width: 414px) {
+  #hero-h1 {
+    font-size: 4rem;
+  }
+}
+
+
 /* 768px */
 
 @media only screen and (min-width: 768px) {
@@ -132,6 +141,7 @@ main {
     width: 50%;
   }
 }
+
 
 /* 992px */
 
