@@ -1,6 +1,7 @@
 import './styles/App.css'
 import Offer from './components/Offer'
 import Carousel from './components/Carousel'
+import Process from './components/Process'
 import Footer from './components/Footer'
 import signInImg from './img/logo.png'
 import p4p from './img/P4P-animated.gif'
@@ -26,6 +27,7 @@ function App() {
       <div id='p4p-container'>
         <img id='p4p-animated' src={p4p} alt='' />
       </div>
+      <Process />
       <Footer />
     </div>
   );
