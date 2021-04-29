@@ -19,7 +19,6 @@ function App() {
             <button>LOG IN / SIGN UP</button>
           </div>
         </div>
-
       </main>
 
       <Carousel />
