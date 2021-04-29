@@ -13,13 +13,20 @@ function Footer() {
                     <a href='http://medium.com/baltimore-corps'><i className="fab fa-medium"></i></a>
                     <a href='http://youtube.com/channel/UC2zwpPPmuJQEpmvXbh7YsJA'><i className="fab fa-youtube"></i></a>
                 </div>
+
+                <div id='address'>
+                    <p className='no-low'><b>BALTIMORE CORPS</b></p>
+                    <p className='no-low no-top'>2401 LIBERTY HEIGHTS AVE #2730</p>
+                    <p className='no-top'>BALTIMORE, MD 21215</p>
+                    <p className='no-low'>(443) 640-8904</p>
+                    <p className='no-top'>hello@baltimorecorps.org</p>
+                </div>
+
                 <div id='links'>
                     <div><a href='https://www.baltimorecorps.org/contact'>CONTACT US</a></div>
                     <div><a href='https://www.baltimorecorps.org/donate-1'>DONATE</a></div>
                     <div><a href='https://www.baltimorecorps.org/internal'>INTERNAL</a></div>
                 </div>
-                <p>BALTIMORE CORPS | 2401 LIBERTY HEIGHTS AVE #2730 | BALTIMORE, MD</p>
-                <p>(443) 640-8904 | HELLO@BALTIMORECORPS.ORG</p>
             </div>
         </footer>
     )
