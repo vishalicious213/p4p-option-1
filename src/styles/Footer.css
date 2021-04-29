@@ -20,7 +20,7 @@ footer {
 
 #social {
     /* outline: 1px solid white; */
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .fab {
@@ -29,11 +29,15 @@ footer {
     height: 1.35rem;
     width: 1.35rem;
     text-align: center;
-    border: 1px solid white;
+    border: 1px solid var(--midGray);
     border-radius: 50%;
     padding: .5rem;
     color: var(--offWhite);
     text-decoration: none;
+}
+
+.fab:hover {
+    border: 1px solid var(--offWhite);
 }
 
 #links {
@@ -50,6 +54,13 @@ footer {
     margin: 0 .5rem;
 }
 
-#links a:hover {
-    text-decoration: underline;
+#links div {
+    border: 1px solid var(--midGray);
+    border-radius: .25rem;
+    width: 8rem;
+    text-align: center;
+}
+
+#links div:hover {
+    border: 1px solid var(--offWhite);
 }
