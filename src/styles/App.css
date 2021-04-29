@@ -58,7 +58,8 @@ main {
 }
 
 #hero-h1 {
-  font-size: 2.5rem;
+  /* font-size: 2.5rem; */
+  font-size: calc(2.5rem + 1vw);
   margin-bottom: 0;
   color: var(--extraLight);
   text-shadow:
@@ -73,7 +74,8 @@ main {
 }
 
 .hero-text {
-  font-size: 1.25rem;
+  /* font-size: 1.05rem; */
+  font-size: calc(.8rem + 1vw);
   color: var(--extraLight);
 }
 
@@ -117,7 +119,8 @@ main {
 
 @media only screen and (min-width: 414px) {
   #hero-h1 {
-    font-size: 3rem;
+    /* font-size: 3rem; */
+    font-size: calc(2.9rem + 1vw);
   }
 }
 
@@ -130,12 +133,13 @@ main {
   }
 
   #hero-h1 {
-    font-size: 4rem;
+    /* font-size: 4rem; */
+    font-size: calc(3.9rem + 1vw);
   }
 
-  .hero-text {
+  /* .hero-text {
     font-size: 1.5rem;
-  }
+  } */
 
   #sign-in {
     width: 50%;
@@ -151,7 +155,8 @@ main {
   }
 
   #hero-h1 {
-    font-size: 5rem;
+    /* font-size: 5rem; */
+    font-size: calc(4.9rem + 1vw);
   }
 
   #sign-in {
