@@ -9,11 +9,10 @@ export default function Carousel() {
         arrows: false,
         dots: true,
         infinite: true,
-        speed: 500,
+        speed: 5000,
         slidesToShow: 3.5,
         slidesToScroll: 1,
         autoplay: true,
-        speed: 5000,
         autoplaySpeed: 0,
         cssEase: "linear",
         responsive: [

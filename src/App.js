@@ -1,6 +1,7 @@
 import './App.css'
 import Offer from './components/Offer'
 import Carousel from './components/Carousel'
+import Footer from './components/Footer'
 import signInImg from './img/logo.png'
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
 
       <Offer />
       <Carousel />
+      <Footer />
     </div>
   );
 }
