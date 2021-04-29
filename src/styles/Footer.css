@@ -10,7 +10,7 @@ footer {
     width: 90%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -20,7 +20,8 @@ footer {
 }
 
 #social {
-    width: 7rem;
+    width: 12rem;
+    text-align: center;
 }
 
 .fab {
@@ -80,3 +81,16 @@ footer {
     border: 1px solid var(--offWhite);
     background: rgb(44, 43, 91);
 }
+
+/* 768px */
+
+@media only screen and (min-width: 768px) {
+    #footer-container {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    #social {
+        width: 7rem;
+    }
+  }
