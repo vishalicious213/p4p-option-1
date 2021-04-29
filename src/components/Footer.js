@@ -26,7 +26,7 @@ function Footer() {
                     </div>
 
                     <div id='address'>
-                        <p className='no-low'><b>BALTIMORE CORPS</b></p>
+                        <p className='no-low name'>BALTIMORE CORPS</p>
                         <p className='no-low no-top'>2401 Liberty Heights Ave #2730</p>
                         <p className='no-top'>Baltimore, MD 21215</p>
                         <p className='no-low no-top'>(443) 640-8904</p>

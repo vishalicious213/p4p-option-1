@@ -55,6 +55,10 @@ footer {
     align-items: center;
 }
 
+.name {
+    font-size: 1.45rem;
+}
+
 .no-low {
     margin-bottom: 0;
 }
