@@ -1,3 +1,25 @@
 #offer {
-    border: 1px solid red;
+    margin: 0 4rem;
+}
+
+#offer h3 {
+    /* margin-left: 1rem; */
+    font-size: 2rem;
+}
+
+#offerings {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offering {
+    width: 22.5%;
+}
+
+.offering img {
+    width: 100%;
+}
+
+.offering h4 {
+    /* height: 2rem; */
 }

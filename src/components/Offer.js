@@ -6,7 +6,7 @@ import offering4 from '../img/offering-4.jpg'
 
 const Offering = (props) => {
     return (
-        <div>
+        <div className='offering'>
             <img src={props.img} alt={props.alt} />
             <h4>{props.title}</h4>
             <p>{props.text}</p>
