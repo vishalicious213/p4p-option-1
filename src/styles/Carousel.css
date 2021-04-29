@@ -18,5 +18,14 @@
 
 #carousel-h3 {
     font-size: 2rem;
-    margin-left: 4rem;
+    margin-left: 1rem;
+}
+
+/* 768px */
+
+@media only screen and (min-width: 768px) {
+    #carousel-h3 {
+        margin-left: 4rem;
+    }
+
 }

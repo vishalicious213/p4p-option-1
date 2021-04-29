@@ -1,6 +1,6 @@
 #process-h3 {
     font-size: 2rem;
-    margin-left: 4rem;
+    margin-left: 1rem;
 }
 
 details {
@@ -20,4 +20,13 @@ summary:hover {
 
 summary:focus {
     outline: none;
+}
+
+/* 768px */
+
+@media only screen and (min-width: 768px) {
+    #process-h3 {
+        margin-left: 4rem;
+    }
+
 }
