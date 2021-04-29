@@ -41,7 +41,7 @@ main {
 
 #p4p-container {
   width: 80%;
-  margin: auto;
+  margin: 2rem auto auto auto;
 }
 
 #p4p-animated {
