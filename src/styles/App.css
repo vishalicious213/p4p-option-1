@@ -36,8 +36,6 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  /* display: flex;
-  justify-content: center; */
 }
 
 #p4p-container {
@@ -54,7 +52,7 @@ main {
 #main-text {
   height: 100vh;
   background: rgba(87, 95, 103, .7);
-  padding: 1rem .5rem 0 3rem;
+  padding: 1rem .5rem 0 1rem;
   position: relative;
 }
 
@@ -74,7 +72,7 @@ main {
 }
 
 .hero-text {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: var(--extraLight);
 }
 
@@ -117,8 +115,19 @@ main {
 /* 768px */
 
 @media only screen and (min-width: 768px) {
+  #main-text {
+    height: 100vh;
+    background: rgba(87, 95, 103, .7);
+    padding: 1rem .5rem 0 3rem;
+    position: relative;
+  }
+
   #hero-h1 {
     font-size: 5rem;
+  }
+
+  .hero-text {
+    font-size: 1.5rem;
   }
 }
 
@@ -127,10 +136,7 @@ main {
 
 @media only screen and (min-width: 992px) {
   #main-text {
-    height: 100vh;
-    background: rgba(87, 95, 103, .7);
     padding: 1rem .5rem 0 3rem;
-    position: relative;
   }
 
   #sign-in {
