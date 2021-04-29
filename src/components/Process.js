@@ -17,8 +17,8 @@ function Process() {
             </details>
 
             <details>
-                <summary>3. Schedule a Consultation</summary>
-                <p></p>
+                <summary>4. Apply for Opportunities</summary>
+                <p>After your Consultation, you will have access to open roles in the Place for Purpose. Login to your account and click on the Opportunities tab to see what is currently available. We will also post opportunities at https://www.baltimorecorps.org/careers. Select the “Apply” button. Then, customize your Profile for the position by selecting the experiences on your Profile you want to share for this position. All other experiences on your profile will be hidden. Next, draft an Interest Statement (see below) to attach with your customized resume for each position. This should be 1-2 paragraphs stating why you would be a great fit for the role. You can hit the “Preview Resume” to see how your Profile will populate into a standard resume template - this is what the hiring manager will see before you submit. Hit Submit!</p>
             </details>
 
             <details>
