@@ -5,13 +5,13 @@ function Footer() {
     return (
         <footer>
             <div id='footer-container'>
-                <div>
-                    <i className="fab fa-facebook"></i>
-                    <i class="fab fa-linkedin-in"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-medium"></i>
-                    <i class="fab fa-youtube"></i>
+                <div id='social'>
+                    <a href='http://www.facebook.com/baltimorecorps'><i className="fab fa-facebook"></i></a>
+                    <a href='https://www.linkedin.com/company/baltimore-corps'><i className="fab fa-linkedin-in"></i></a>
+                    <a href='http://twitter.com/BaltimoreCorps'><i className="fab fa-twitter"></i></a>
+                    <a href='http://instagram.com/baltimorecorps/'><i className="fab fa-instagram"></i></a>
+                    <a href='http://medium.com/baltimore-corps'><i className="fab fa-medium"></i></a>
+                    <a href='http://youtube.com/channel/UC2zwpPPmuJQEpmvXbh7YsJA'><i className="fab fa-youtube"></i></a>
                 </div>
                 <div id='links'>
                     <div><a href='https://www.baltimorecorps.org/contact'>CONTACT US</a></div>
