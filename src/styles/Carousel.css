@@ -1,25 +1,25 @@
 .program {
-    border: 1px solid red;
     margin: 0 .5rem;
 }
 
 .program h4 {
-    margin: .5rem 0 .75rem 1rem;
+    font-size: 1.25rem;
+    margin: .5rem auto .75rem auto;
+    width: 70%;
 }
 
 .program p {
     padding: 0 1rem;
+    width: 70%;
+    margin: 1rem auto;
 }
 
 .img-box {
     width: 70%;
     margin: 0 auto;
-    border: 2px solid red;
 }
 
 .carousel-img {
-    /* width: 90%;
-    margin: 0 auto; */
     width: 100%;
 }
 
@@ -31,41 +31,7 @@
 /* 768px */
 
 @media only screen and (min-width: 768px) {
-    .img-box {
-        width: 70%;
-        margin: 0 auto;
-        border: 2px solid red;
-    }
-
     #carousel-h3 {
         margin-left: 4rem;
     }
-}
-
-/* 992px */
-
-@media only screen and (min-width: 992px) {
-    .img-box {
-        width: 70%;
-        margin: 0 auto;
-        border: 2px solid red;
-    }
-
-    /* #carousel-img {
-        width: 80%;
-    } */
-}
-
-/* 1200px */
-
-@media only screen and (min-width: 1200px) {
-    .img-box {
-        width: 70%;
-        margin: 0 auto;
-        border: 2px solid red;
-    }
-
-    /* #carousel-img {
-        width: 70%;
-    } */
 }

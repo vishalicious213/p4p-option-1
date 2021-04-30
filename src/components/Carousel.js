@@ -32,7 +32,6 @@ export default function Carousel() {
               settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                // initialSlide: 2
               }
             },
             {
