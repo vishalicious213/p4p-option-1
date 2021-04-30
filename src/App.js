@@ -1,4 +1,5 @@
 import './styles/App.css'
+import Navbar from './components/Navbar'
 import Offer from './components/Offer'
 import Carousel from './components/Carousel'
 import Process from './components/Process'
@@ -9,6 +10,8 @@ import p4p from './img/P4P-animated.gif'
 function App() {
   return (
     <div className="App">
+      <Navbar />
+      
       <main>
         <div id='main-text'>
           <h2 id='hero-h1'>PLACE <span id='hero-span'>FOR</span> PURPOSE</h2>
