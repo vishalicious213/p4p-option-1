@@ -1,21 +1,16 @@
-.program {
-    margin: 0 .5rem;
-}
-
 .program h4 {
     font-size: 1.25rem;
-    margin: .5rem auto .75rem auto;
-    width: 70%;
+    margin: 0 auto .75rem auto;
+    width: 80%;
 }
 
 .program p {
-    padding: 0 1rem;
-    width: 70%;
+    width: 80%;
     margin: 1rem auto;
 }
 
 .img-box {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 
