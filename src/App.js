@@ -6,6 +6,7 @@ import Process from './components/Process'
 import Footer from './components/Footer'
 // import signInImg from './img/logo.png'
 // import p4p from './img/P4P-animated.gif'
+import baltimore from './img/carousel/baltimore.jpg'
 
 function App() {
   return (
@@ -30,6 +31,11 @@ function App() {
       {/* <div id='p4p-container'>
         <img id='p4p-animated' src={p4p} alt='' />
       </div> */}
+      <div className='program'>
+        <h4>Baltimore Corps</h4>
+        <div className='img-box'><a href='https://www.baltimorecorps.org/public-allies'><img className='carousel-img' src={baltimore} alt='' /></a></div>
+        <p>Baltimore Corps hosts initiatives that intentionally seek to build socioeconomic equity throughout Baltimore, via social impact careers, leadership training, community engagement, social entrepreneurship, and small business support programs.</p>
+      </div>
       <Footer />
     </div>
   );

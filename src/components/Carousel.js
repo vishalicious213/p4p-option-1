@@ -1,5 +1,5 @@
 import Slider from 'react-slick'
-import baltimore from '../img/carousel/baltimore.jpg'
+// import baltimore from '../img/carousel/baltimore.jpg'
 import fellowship from '../img/carousel/fellowship.jpg'
 import mayoral from '../img/carousel/mayoral.jpg'
 import purpose from '../img/carousel/purpose.jpg'
