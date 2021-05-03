@@ -48,11 +48,11 @@ export default function Carousel() {
         <div className='body'>
             <h3 id='carousel-h3'>OUR PROGRAMS</h3>
             <Slider {...settings}>
-                <div className='program'>
+                {/* <div className='program'>
                   <h4>Baltimore Corps</h4>
                   <div className='img-box'><a href='https://www.baltimorecorps.org/public-allies'><img className='carousel-img' src={baltimore} alt='' /></a></div>
                   <p>Baltimore Corps hosts initiatives that intentionally seek to build socioeconomic equity throughout Baltimore, via social impact careers, leadership training, community engagement, social entrepreneurship, and small business support programs.</p>
-                </div>
+                </div> */}
                 <div className='program'>
                   <h4>Baltimore Corps Fellowship</h4>
                   <div className='img-box'><a href='https://www.baltimorecorps.org/fellowship'><img className='carousel-img' src={fellowship} alt='' /></a></div>
